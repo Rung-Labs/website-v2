@@ -49,10 +49,10 @@ export default function Hero() {
               src={pointer.image}
               alt={`${view} phone mockup`}
             />
-            <div className="absolute -left-24 top-32 flex w-56 rotate-[-4deg] items-center justify-center rounded-full border border-black/20 bg-black/70 px-4 py-2 text-xs font-semibold text-white shadow-lg backdrop-blur-sm">
+            <div className="hidden xl:flex absolute -left-24 top-32 w-56 rotate-[-4deg] items-center justify-center rounded-full border border-black/20 bg-black/70 px-4 py-2 text-xs font-semibold text-white shadow-lg backdrop-blur-sm">
               {pointer.pointers[0]}
             </div>
-            <div className="absolute -right-24 bottom-32 flex w-48 rotate-3 items-center justify-center rounded-full border border-black/20 bg-black/70 px-4 py-2 text-xs font-semibold text-white shadow-lg backdrop-blur-sm">
+            <div className="hidden xl:flex absolute -right-24 bottom-32 w-48 rotate-3 items-center justify-center rounded-full border border-black/20 bg-black/70 px-4 py-2 text-xs font-semibold text-white shadow-lg backdrop-blur-sm">
               {pointer.pointers[1]}
             </div>
           </div>
